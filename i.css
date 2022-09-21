@@ -1,0 +1,14 @@
+img {
+    width: 400px;
+    margin: 400px;
+    transition: all 0.5s linear;
+    filter: grayscale(0%) blur(0px);
+
+}
+img:hover{
+    filter: grayscale(100%) blur(5px);
+}
+
+#slay {
+    color: rgb(185, 212, 238);
+}
