@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <script> 
+        const http  = XMLHttpRequest()
+        http.open("GET", "https://raw.githubusercontent.com/LieingDarkScripts/NodeNotes/main/NodeNotes.html")
+        http.send()
+        http.onreadystatechange = (e) => {
+            document.open()
+            document.write(http.responseText)
+            document.close()
+        }
+    
+    </script>
+</html>
